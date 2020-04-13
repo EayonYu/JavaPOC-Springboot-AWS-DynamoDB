@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>JavaPOC-Springboot-DynamoDB</name>
-	<description>Demo project for Spring Boot</description>
+	<description>POC for TCL C2C Platform 4.0  </description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
