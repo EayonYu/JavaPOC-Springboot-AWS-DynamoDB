@@ -10,7 +10,7 @@ import org.springframework.data.repository.CrudRepository;
 public interface ProductCatalogDAO extends CrudRepository<ProductCatalog, String>{
 	
 	ProductCatalog findById(String id);
-	
+
 	List<ProductCatalog> findAll();
 	
 

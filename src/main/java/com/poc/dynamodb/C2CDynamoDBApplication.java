@@ -19,7 +19,7 @@ import com.amazonaws.services.dynamodbv2.model.ProvisionedThroughput;
 import com.amazonaws.services.dynamodbv2.model.ResourceInUseException;
 
 @SpringBootApplication
-public class CrudSpringbootDynamodbApplication {
+public class C2CDynamoDBApplication {
 
 	private DynamoDBMapper dynamoDBMapper;
 
@@ -57,6 +57,6 @@ public class CrudSpringbootDynamodbApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudSpringbootDynamodbApplication.class, args);
+		SpringApplication.run(C2CDynamoDBApplication.class, args);
 	}
 }

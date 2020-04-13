@@ -11,7 +11,7 @@ import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
 
 @Configuration
-@EnableDynamoDBRepositories(basePackages = "com.example.crudspringbootdynamodb.dao")
+@EnableDynamoDBRepositories(basePackages = "com.poc.dynamodb.dao")
 public class DynamoDBConfig {
 	
 	@Value("${amazon.dynamodb.endpoint}")
